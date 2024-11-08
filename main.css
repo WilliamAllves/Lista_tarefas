@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bona Nova SC", serif;
+}
+
+header{
+  background-color: #756666;
+  padding: 16px 0;
+  color: #000;
+  display: flex;
+  border-bottom: 16px solid #fff;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: center;
+  font-style: italic;
+}
+
+header button{
+  margin-left: 16px;
+  width: 160px;
+}
+
+form{
+  background-color: #857a7a;
+  padding: 24px 0;
+  text-align: center;
+  display: none;
+}
+
+form h2{
+  margin-bottom: 16px;
+}
+
+input,
+button{
+  padding: 8px;
+  border-radius: 5px;
+}
+
+button{
+  background-color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#botao-cancelar{
+  background-color: #eb0d0d;
+}
+
+#boao-cancelar:houver {
+  background-color: #eb0d0d;
+}
+
+#lista-tarefas {
+  list-style: none;
+  padding: 14px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 26px;
+  background-color: #857a7a;
+  color: #000;
+  display: none;
+  max-height:560px;
+  overflow-y: auto;
+  border-radius: 12px;
+  font-size: x;
+}
+
+li {
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.base {
+  text-align: center;
+  font-style: italic;
+  color: #000;
+  margin-top: 20px;
+  position: relative;
+}
