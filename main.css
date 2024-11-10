@@ -82,3 +82,9 @@ li {
   margin-top: 20px;
   position: relative;
 }
+
+
+.riscar{
+  text-decoration: line-through;
+  color: #000;
+}
